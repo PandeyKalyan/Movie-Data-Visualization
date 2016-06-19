@@ -4,26 +4,8 @@ import sqlite3
 conn = sqlite3.connect('movieinfo.sqlite')
 cur = conn.cursor()
 
-cur.execute('''
-DROP TABLE IF EXISTS Actors''')
 
-cur.execute('''
-DROP TABLE IF EXISTS Movies''')
-
-cur.execute('''
-DROP TABLE IF EXISTS Movies_Actors''')
-
-cur.execute('''
-DROP TABLE IF EXISTS Directors''')
-
-cur.execute('''
-DROP TABLE IF EXISTS Genre''')
-
-cur.execute('''
-DROP TABLE IF EXISTS Movies_Genre''')
-
-
-cur.execute('''CREATE TABLE Movies (
+cur.execute('''CREATE TABLE IF NOT EXISTS Movies (
     id  INTEGER NOT NULL PRIMARY KEY UNIQUE,
     name    TEXT UNIQUE,
     year    INTEGER,
@@ -32,28 +14,28 @@ cur.execute('''CREATE TABLE Movies (
     rating FLOAT
 )''')
 
-cur.execute('''CREATE TABLE Actors (
+cur.execute('''CREATE TABLE IF NOT EXISTS Actors (
     id  INTEGER NOT NULL PRIMARY KEY UNIQUE,
     name    TEXT UNIQUE
 )''')
 
-cur.execute('''CREATE TABLE Directors (
+cur.execute('''CREATE TABLE IF NOT EXISTS Directors (
     id  INTEGER NOT NULL PRIMARY KEY UNIQUE,
     name    TEXT UNIQUE
 )''')
 
-cur.execute('''CREATE TABLE Genre (
+cur.execute('''CREATE TABLE IF NOT EXISTS Genre (
     id  INTEGER NOT NULL PRIMARY KEY UNIQUE,
     name    TEXT UNIQUE
 )''')
 
-cur.execute('''CREATE TABLE Movies_Actors (
+cur.execute('''CREATE TABLE IF NOT EXISTS Movies_Actors (
     movie_id  INTEGER,
     actor_id  INTEGER,
     PRIMARY KEY (movie_id, actor_id)
 )''')
 
-cur.execute('''CREATE TABLE Movies_Genre (
+cur.execute('''CREATE TABLE IF NOT EXISTS Movies_Genre (
     movie_id  INTEGER,
     genre_id  INTEGER,
     PRIMARY KEY (movie_id, genre_id)
@@ -62,6 +44,16 @@ cur.execute('''CREATE TABLE Movies_Genre (
 fh = open("movie_list.txt")
 for line in fh:
     movie = line.strip()
+
+    cur.execute("SELECT name FROM Movies WHERE name= ?",
+                (movie, ))
+    try:
+        data = cur.fetchone()[0]
+        print "Found in database ", movie
+        continue
+    except:
+        pass
+
     movie_data = scraper.imdb_scraper(movie)
     actors = movie_data['Actors'].split(', ')
     genres = movie_data['Genre'].split(', ')
