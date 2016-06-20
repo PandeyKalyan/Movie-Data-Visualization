@@ -1,5 +1,6 @@
 import scraper
 import sqlite3
+import time
 
 conn = sqlite3.connect('movieinfo.sqlite')
 cur = conn.cursor()
@@ -95,4 +96,5 @@ for line in fh:
         (movie_id, genre_id) VALUES (?, ?)''',
                     (movie_id, genre_id))
 
-conn.commit()
+        conn.commit()
+        time.sleep(1)
