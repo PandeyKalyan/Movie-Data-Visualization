@@ -60,7 +60,7 @@ for line in fh:
     genres = movie_data['Genre'].split(', ')
     title = movie_data['Title']
     year = int(movie_data['Year'])
-    runtime = movie_data['Runtime']
+    runtime = int(movie_data['Runtime'].split()[0])
     director = movie_data['Director']
     rating = float(movie_data['imdbRating'])
 
@@ -96,5 +96,5 @@ for line in fh:
         (movie_id, genre_id) VALUES (?, ?)''',
                     (movie_id, genre_id))
 
-        conn.commit()
-        time.sleep(1)
+    conn.commit()
+    time.sleep(1)

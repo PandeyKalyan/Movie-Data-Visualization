@@ -75,7 +75,6 @@ Life Is Beautiful
 The Hunt
 The Great Debaters
 A Beautiful Mind
-The Usual Suspects
 To Kill a Mockingbird
 American Beauty
 Titanic
@@ -93,8 +92,26 @@ Apocalypse Now
 Gladiator
 Rocky
 Annie Hall
-Good Will Hunting
 Rear Window
+Black Swan
+Shrek
+Shrek 2
+American Beauty
+American Psycho
+American History X
+Kill Bill: Vol. 1
+Kill Bill: Vol. 2
+Green Street Hooligans
+Jumanji
+Sin City
+Stand by Me
+Good Will Hunting
+Groundhog Day
+Kick-Ass
+Shutter Island
+Vertigo
+Up in the Air
+Law Abiding Citizen
 Udaan
 Like Stars on Earth
 Hera Pheri
@@ -124,3 +141,12 @@ Queen
 The Lunchbox
 Bhaag Milkha Bhaag
 Delhi Belly
+Drishyam
+Bhaag Milkha Bhaag
+Dil Chahta Hai
+Haider
+Guru
+PK
+My Name Is Khan
+Bajrangi Bhaijaan
+Gol Maal
