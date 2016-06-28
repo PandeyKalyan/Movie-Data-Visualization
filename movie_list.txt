@@ -112,6 +112,65 @@ Shutter Island
 Vertigo
 Up in the Air
 Law Abiding Citizen
+Rope
+Spectre
+The Revenant
+The Hateful Eight
+Interstellar
+The Imitation Game
+Fury
+Noah
+The Fault in Our Stars
+22 Jump Street
+Divergent
+Gravity
+The Conjuring
+Prisoners
+Now You See Me
+Olympus Has Fallen
+Dallas Buyers Club
+Pain & Gain
+Skyfall
+Argo
+21 Jump Street
+Life of Pi
+The Bourne Legacy
+Cloud Atlas
+The Dictator
+Thor
+Hugo
+Limitless
+The Social Network
+Shutter Island
+True Grit
+Despicable Me
+The Fighter
+Megamind
+Kung Fu Panda
+Tropic Thunder
+Seven Pounds
+The Bourne Ultimatum
+No Country for Old Men
+3:10 to Yuma
+Zodiac
+Gone Baby Gone
+Ocean's Thirteen
+Shooter
+Casino Royale
+Fan
+Dilwale
+Bajrangi Bhaijaan
+Guilty
+Kick
+Tanu Weds Manu Returns
+Tamasha
+Bang Bang
+Happy New Year
+Haider
+Yeh Jawaani Hai Deewani
+Dhoom:3
+Chennai Express
+Barfi!
 Udaan
 Like Stars on Earth
 Hera Pheri
@@ -136,7 +195,53 @@ Lage Raho Munna Bhai
 Hungama
 Dil Chahta Hai
 Gangs of Wasseypur
-Barfi!
+Ek Tha Tiger
+Student of the Year
+Life of PI
+Don 2
+Rockstar
+Chalo Dilli
+Singham
+Bodyguard
+Ready
+Pyaar Ka Punchnama
+Tanu Weds Manu
+Dabangg
+My Name Is Khan
+Housefull
+De Dana Dan
+Rab Ne Bana Di Jodi
+Ghajini
+Dostana
+Bachna Ae Haseeno
+Jannat: In Search of Heaven...
+Jab We Met
+Om Shanti Om
+Namastey London
+Dhamaal
+Kabhi Alvida Naa Kehna
+Rang De Basanti
+Phir Hera Pheri
+36 China Town
+Apna Sapna Money Money
+No Entry
+Garam Masala
+Kyon Ki
+Veer-Zaara
+Main Hoon Na
+Mujhse Shaadi Karogi
+Hulchul
+Kal Ho Naa Ho
+Baghban
+Tere Naam
+Chalte Chalte
+Ishq Vishk
+Devdas
+Kabhi Khushi Kabhie Gham...
+Mohabbatein
+Hera Pheri
+Dhadkan
+Phir Bhi Dil Hai Hindustani
 Queen
 The Lunchbox
 Bhaag Milkha Bhaag

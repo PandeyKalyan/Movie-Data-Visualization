@@ -10,7 +10,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS Movies (
     id  INTEGER NOT NULL PRIMARY KEY UNIQUE,
     name    TEXT UNIQUE,
     year    INTEGER,
-    runtime TEXT,
+    runtime INTEGER,
     director_id INTEGER,
     rating FLOAT
 )''')
